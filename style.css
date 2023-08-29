@@ -1,0 +1,98 @@
+.box{
+    width: 100%;
+    height: 100vh;
+    background-color: #202123;
+    padding:3rem;
+}
+.messageBox{
+    width:95%;
+    height:80vh;
+    margin:0 auto;
+    border: 1px solid black;
+    overflow:hidden;
+    background-color: #343541;
+    border-radius: 1rem;
+    overflow-y: auto;
+}
+.message{
+    width:100%;
+    min-height: 10vh;
+    height:min-content;
+    color:aliceblue;
+    display: flex;
+    align-items: center;
+    padding-left:1rem;
+}
+.message h6{
+    margin-left: 1rem;
+}
+
+.message i{
+    position:relative;
+    bottom:3px;
+    font-size:20px;
+}
+.promptBox{
+    width: 50%;
+    height: 2.5rem;
+    background-color: #40414f;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 10rem;
+    overflow: hidden;
+    margin:2rem auto;
+}
+
+.submit{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    background-color: #40414f;
+    margin-right: 1rem;
+    color:white
+}
+.text{
+    margin-left:1rem;
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor:text;
+	outline: inherit;
+    color: white;
+    width:95%;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+.colors{
+    background-color: #434654 ;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #888;
+    border-radius:0rem 1rem 1rem 0rem; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f1f1f1a8; 
+    border-radius: 1rem;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
